@@ -1,0 +1,15 @@
+Dataset,Method,NCC,MI,SSIM,TRE_um,TRE_um_s,Time_s
+Breast_Cancer,Unregistered,0.3349,0.4626,0.4834,3.64,1.22,0.0
+Breast_Cancer,Rigid,0.4574,0.729,0.5838,1.92,0.76,4.3
+Breast_Cancer,Affine,0.4764,0.8708,0.6288,1.58,0.72,1.5
+Breast_Cancer,BSpline_GS20,0.5557,1.2449,0.8462,1.14,0.79,7.4
+Breast_Cancer,BSpline_GS30,0.5755,1.2366,0.8541,1.08,0.69,4.0
+Breast_Cancer,BSpline_GS40,0.5622,1.2061,0.8504,1.11,0.77,2.8
+Breast_Cancer,SyN_Demons,0.3477,0.4864,0.5144,3.43,1.28,0.6
+Brain_Glioma,Unregistered,0.2116,0.4765,0.513,2.85,1.12,0.0
+Brain_Glioma,Rigid,0.2701,0.8045,0.6089,1.65,0.76,4.7
+Brain_Glioma,Affine,0.3285,0.8635,0.6549,1.35,0.79,4.7
+Brain_Glioma,BSpline_GS20,0.4137,1.2746,0.8239,1.06,0.88,10.9
+Brain_Glioma,BSpline_GS30,0.4833,1.2623,0.8392,1.02,0.91,5.7
+Brain_Glioma,BSpline_GS40,0.4244,1.2618,0.8323,0.95,0.81,3.4
+Brain_Glioma,SyN_Demons,0.2157,0.466,0.5219,2.84,1.08,0.6

@@ -1,0 +1,308 @@
+================================================================================
+COMPREHENSIVE REGISTRATION EXPERIMENTS v3
+================================================================================
+Breast: (1335, 2000, 3), pix=0.3115 um/px
+Brain:  (1725, 2000, 3), pix=0.2510 um/px
+
+
+RUNNING EXPERIMENTS
+
+============================================================
+Experiment: Breast_Cancer (ds=0.25)
+============================================================
+  Size: (333, 500), px_size: 0.3115 um/px
+  Unreg NCC: 0.3349
+
+  --- Unregistered ---
+================================================================================
+COMPREHENSIVE REGISTRATION EXPERIMENTS v3
+================================================================================
+Breast: (1335, 2000, 3), pix=0.3115 um/px
+Brain:  (1725, 2000, 3), pix=0.2510 um/px
+
+
+RUNNING EXPERIMENTS
+
+============================================================
+Experiment: Breast_Cancer (ds=0.25)
+============================================================
+  Size: (333, 500), px_size: 0.3115 um/px
+  Unreg NCC: 0.3349
+
+  --- Unregistered ---
+  NCC: 0.3349 -> 0.3349
+  MI:  0.4626 -> 0.4626
+  SSIM: 0.4834
+  TRE: 11.69 px (3.64 um) +- 1.22 um
+  Time: 0.0s
+
+  --- Rigid ---
+  NCC: 0.3349 -> 0.4604
+  MI:  0.4626 -> 0.7277
+  SSIM: 0.5832
+  TRE: 6.21 px (1.93 um) +- 0.79 um
+  Time: 4.4s
+
+  --- Affine ---
+  NCC: 0.3349 -> 0.4794
+  MI:  0.4626 -> 0.8371
+  SSIM: 0.6314
+  TRE: 5.10 px (1.59 um) +- 0.71 um
+  Time: 4.9s
+
+  --- BSpline_GS20 ---
+  NCC: 0.3349 -> 0.6099
+  MI:  0.4626 -> 1.2112
+  SSIM: 0.8568
+  TRE: 3.41 px (1.06 um) +- 0.70 um
+  Time: 10.6s
+
+  --- BSpline_GS30 ---
+  NCC: 0.3349 -> 0.5629
+  MI:  0.4626 -> 1.1987
+  SSIM: 0.8482
+  TRE: 3.72 px (1.16 um) +- 0.79 um
+  Time: 3.8s
+
+  --- BSpline_GS40 ---
+  NCC: 0.3349 -> 0.5567
+  MI:  0.4626 -> 1.2320
+  SSIM: 0.8522
+  TRE: 3.52 px (1.10 um) +- 0.80 um
+  Time: 3.3s
+
+  --- SyN_Demons ---
+  NCC: 0.3349 -> 0.3477
+  MI:  0.4626 -> 0.4864
+  SSIM: 0.5144
+  TRE: 11.01 px (3.43 um) +- 1.28 um
+  Time: 0.7s
+
+============================================================
+Experiment: Brain_Glioma (ds=0.25)
+============================================================
+  Size: (431, 500), px_size: 0.2510 um/px
+  Unreg NCC: 0.2116
+
+  --- Unregistered ---
+  NCC: 0.2116 -> 0.2116
+  MI:  0.4765 -> 0.4765
+  SSIM: 0.5130
+  TRE: 11.36 px (2.85 um) +- 1.12 um
+  Time: 0.0s
+
+  --- Rigid ---
+  NCC: 0.2116 -> 0.2671
+  MI:  0.4765 -> 0.7750
+  SSIM: 0.6092
+  TRE: 6.70 px (1.68 um) +- 0.77 um
+  Time: 4.5s
+
+  --- Affine ---
+  NCC: 0.2116 -> 0.3119
+  MI:  0.4765 -> 0.8906
+  SSIM: 0.6504
+  TRE: 5.62 px (1.41 um) +- 0.85 um
+  Time: 4.9s
+
+  --- BSpline_GS20 ---
+  NCC: 0.2116 -> 0.3831
+  MI:  0.4765 -> 1.2522
+  SSIM: 0.8197
+  TRE: 4.28 px (1.07 um) +- 0.89 um
+  Time: 12.9s
+
+  --- BSpline_GS30 ---
+  NCC: 0.2116 -> 0.4236
+  MI:  0.4765 -> 1.2645
+  SSIM: 0.8321
+  TRE: 4.08 px (1.02 um) +- 0.85 um
+  Time: 6.2s
+
+  --- BSpline_GS40 ---
+  NCC: 0.2116 -> 0.4279
+  MI:  0.4765 -> 1.2957
+  SSIM: 0.8339
+  TRE: 3.79 px (0.95 um) +- 0.82 um
+  Time: 3.5s
+
+  --- SyN_Demons ---
+  NCC: 0.2116 -> 0.2157
+  MI:  0.4765 -> 0.4660
+  SSIM: 0.5219
+  TRE: 11.33 px (2.84 um) +- 1.08 um
+  Time: 0.6s
+
+
+GENERATING TABLES
+
+          Dataset        Method     NCC      MI    SSIM  TRE_um  TRE_um_s  Time_s
+0   Breast_Cancer  Unregistered  0.3349  0.4626  0.4834    3.64      1.22     0.0
+1   Breast_Cancer         Rigid  0.4604  0.7277  0.5832    1.93      0.79     4.4
+2   Breast_Cancer        Affine  0.4794  0.8371  0.6314    1.59      0.71     4.9
+3   Breast_Cancer  BSpline_GS20  0.6099  1.2112  0.8568    1.06      0.70    10.6
+4   Breast_Cancer  BSpline_GS30  0.5629  1.1987  0.8482    1.16      0.79     3.8
+5   Breast_Cancer  BSpline_GS40  0.5567  1.2320  0.8522    1.10      0.80     3.3
+6   Breast_Cancer    SyN_Demons  0.3477  0.4864  0.5144    3.43      1.28     0.7
+7    Brain_Glioma  Unregistered  0.2116  0.4765  0.5130    2.85      1.12     0.0
+8    Brain_Glioma         Rigid  0.2671  0.7750  0.6092    1.68      0.77     4.5
+9    Brain_Glioma        Affine  0.3119  0.8906  0.6504    1.41      0.85     4.9
+10   Brain_Glioma  BSpline_GS20  0.3831  1.2522  0.8197    1.07      0.89    12.9
+11   Brain_Glioma  BSpline_GS30  0.4236  1.2645  0.8321    1.02      0.85     6.2
+12   Brain_Glioma  BSpline_GS40  0.4279  1.2957  0.8339    0.95      0.82     3.5
+13   Brain_Glioma    SyN_Demons  0.2157  0.4660  0.5219    2.84      1.08     0.6
+
+
+GENERATING FIGURES
+================================================================================
+COMPREHENSIVE REGISTRATION EXPERIMENTS v3
+================================================================================
+Breast: (1335, 2000, 3), pix=0.3115 um/px
+Brain:  (1725, 2000, 3), pix=0.2510 um/px
+
+
+RUNNING EXPERIMENTS
+
+============================================================
+Experiment: Breast_Cancer (ds=0.25)
+============================================================
+  Size: (333, 500), px_size: 0.3115 um/px
+  Unreg NCC: 0.3349
+
+  --- Unregistered ---
+  NCC: 0.3349 -> 0.3349
+  MI:  0.4626 -> 0.4626
+  SSIM: 0.4834
+  TRE: 11.69 px (3.64 um) +- 1.22 um
+  Time: 0.0s
+
+  --- Rigid ---
+  NCC: 0.3349 -> 0.4574
+  MI:  0.4626 -> 0.7290
+  SSIM: 0.5838
+  TRE: 6.17 px (1.92 um) +- 0.76 um
+  Time: 4.3s
+
+  --- Affine ---
+  NCC: 0.3349 -> 0.4764
+  MI:  0.4626 -> 0.8708
+  SSIM: 0.6288
+  TRE: 5.07 px (1.58 um) +- 0.72 um
+  Time: 1.5s
+
+  --- BSpline_GS20 ---
+  NCC: 0.3349 -> 0.5557
+  MI:  0.4626 -> 1.2449
+  SSIM: 0.8462
+  TRE: 3.68 px (1.14 um) +- 0.79 um
+  Time: 7.4s
+
+  --- BSpline_GS30 ---
+  NCC: 0.3349 -> 0.5755
+  MI:  0.4626 -> 1.2366
+  SSIM: 0.8541
+  TRE: 3.47 px (1.08 um) +- 0.69 um
+  Time: 4.0s
+
+  --- BSpline_GS40 ---
+  NCC: 0.3349 -> 0.5622
+  MI:  0.4626 -> 1.2061
+  SSIM: 0.8504
+  TRE: 3.57 px (1.11 um) +- 0.77 um
+  Time: 2.8s
+
+  --- SyN_Demons ---
+  NCC: 0.3349 -> 0.3477
+  MI:  0.4626 -> 0.4864
+  SSIM: 0.5144
+  TRE: 11.01 px (3.43 um) +- 1.28 um
+  Time: 0.6s
+
+============================================================
+Experiment: Brain_Glioma (ds=0.25)
+============================================================
+  Size: (431, 500), px_size: 0.2510 um/px
+  Unreg NCC: 0.2116
+
+  --- Unregistered ---
+  NCC: 0.2116 -> 0.2116
+  MI:  0.4765 -> 0.4765
+  SSIM: 0.5130
+  TRE: 11.36 px (2.85 um) +- 1.12 um
+  Time: 0.0s
+
+  --- Rigid ---
+  NCC: 0.2116 -> 0.2701
+  MI:  0.4765 -> 0.8045
+  SSIM: 0.6089
+  TRE: 6.58 px (1.65 um) +- 0.76 um
+  Time: 4.7s
+
+  --- Affine ---
+  NCC: 0.2116 -> 0.3285
+  MI:  0.4765 -> 0.8635
+  SSIM: 0.6549
+  TRE: 5.39 px (1.35 um) +- 0.79 um
+  Time: 4.7s
+
+  --- BSpline_GS20 ---
+  NCC: 0.2116 -> 0.4137
+  MI:  0.4765 -> 1.2746
+  SSIM: 0.8239
+  TRE: 4.23 px (1.06 um) +- 0.88 um
+  Time: 10.9s
+
+  --- BSpline_GS30 ---
+  NCC: 0.2116 -> 0.4833
+  MI:  0.4765 -> 1.2623
+  SSIM: 0.8392
+  TRE: 4.06 px (1.02 um) +- 0.91 um
+  Time: 5.7s
+
+  --- BSpline_GS40 ---
+  NCC: 0.2116 -> 0.4244
+  MI:  0.4765 -> 1.2618
+  SSIM: 0.8323
+  TRE: 3.78 px (0.95 um) +- 0.81 um
+  Time: 3.4s
+
+  --- SyN_Demons ---
+  NCC: 0.2116 -> 0.2157
+  MI:  0.4765 -> 0.4660
+  SSIM: 0.5219
+  TRE: 11.33 px (2.84 um) +- 1.08 um
+  Time: 0.6s
+
+
+GENERATING TABLES
+
+          Dataset        Method     NCC      MI    SSIM  TRE_um  TRE_um_s  Time_s
+0   Breast_Cancer  Unregistered  0.3349  0.4626  0.4834    3.64      1.22     0.0
+1   Breast_Cancer         Rigid  0.4574  0.7290  0.5838    1.92      0.76     4.3
+2   Breast_Cancer        Affine  0.4764  0.8708  0.6288    1.58      0.72     1.5
+3   Breast_Cancer  BSpline_GS20  0.5557  1.2449  0.8462    1.14      0.79     7.4
+4   Breast_Cancer  BSpline_GS30  0.5755  1.2366  0.8541    1.08      0.69     4.0
+5   Breast_Cancer  BSpline_GS40  0.5622  1.2061  0.8504    1.11      0.77     2.8
+6   Breast_Cancer    SyN_Demons  0.3477  0.4864  0.5144    3.43      1.28     0.6
+7    Brain_Glioma  Unregistered  0.2116  0.4765  0.5130    2.85      1.12     0.0
+8    Brain_Glioma         Rigid  0.2701  0.8045  0.6089    1.65      0.76     4.7
+9    Brain_Glioma        Affine  0.3285  0.8635  0.6549    1.35      0.79     4.7
+10   Brain_Glioma  BSpline_GS20  0.4137  1.2746  0.8239    1.06      0.88    10.9
+11   Brain_Glioma  BSpline_GS30  0.4833  1.2623  0.8392    1.02      0.91     5.7
+12   Brain_Glioma  BSpline_GS40  0.4244  1.2618  0.8323    0.95      0.81     3.4
+13   Brain_Glioma    SyN_Demons  0.2157  0.4660  0.5219    2.84      1.08     0.6
+
+
+GENERATING FIGURES
+
+
+STATISTICAL ANALYSIS
+Breast_Cancer: B-spline vs others NCC t=3.388, p=0.027588
+  B-spline mean NCC: 0.5645+-0.0082
+  Others mean NCC: 0.4272+-0.0567
+Brain_Glioma: B-spline vs others NCC t=4.324, p=0.012411
+  B-spline mean NCC: 0.4405+-0.0306
+  Others mean NCC: 0.2714+-0.0460
+
+
+DONE

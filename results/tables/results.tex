@@ -1,0 +1,25 @@
+\begin{table}[htbp]
+\centering
+\caption{Quantitative registration results on 10x Visium datasets.}
+\label{tab:final_results}
+\begin{tabular}{@{}lcccccc@{}}
+\toprule
+\textbf{Dataset} & \textbf{Method} & \textbf{NCC} & \textbf{TRE ($\mu$m)} & \textbf{Time (s)} \\
+\midrule
+  Breast Cancer & Unregistered & 0.3349 & 3.6$\pm$1.2 & 0.0 \\
+   & Rigid & 0.4574 & 1.9$\pm$0.8 & 4.3 \\
+   & Affine & 0.4764 & 1.6$\pm$0.7 & 1.5 \\
+   & BSpline GS20 & 0.5557 & 1.1$\pm$0.8 & 7.4 \\
+   & BSpline GS30 & 0.5755 & 1.1$\pm$0.7 & 4.0 \\
+   & BSpline GS40 & 0.5622 & 1.1$\pm$0.8 & 2.8 \\
+   & SyN Demons & 0.3477 & 3.4$\pm$1.3 & 0.6 \\
+  Brain Glioma & Unregistered & 0.2116 & 2.9$\pm$1.1 & 0.0 \\
+   & Rigid & 0.2701 & 1.6$\pm$0.8 & 4.7 \\
+   & Affine & 0.3285 & 1.4$\pm$0.8 & 4.7 \\
+   & BSpline GS20 & 0.4137 & 1.1$\pm$0.9 & 10.9 \\
+   & BSpline GS30 & 0.4833 & 1.0$\pm$0.9 & 5.7 \\
+   & BSpline GS40 & 0.4244 & 0.9$\pm$0.8 & 3.4 \\
+   & SyN Demons & 0.2157 & 2.8$\pm$1.1 & 0.6 \\
+\bottomrule
+\end{tabular}
+\end{table}
